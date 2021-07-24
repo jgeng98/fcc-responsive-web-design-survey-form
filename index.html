@@ -16,6 +16,7 @@
         <label id="name-label" for="name">Name</label><br />
         <input
           type="text"
+          class="form-field"
           id="name"
           name="name"
           placeholder="Enter your name"
@@ -27,6 +28,7 @@
         <label id="email-label" for="email">Email</label><br />
         <input
           type="email"
+          class="form-field"
           id="email"
           name="email"
           placeholder="Enter your email"
@@ -40,6 +42,7 @@
         ><br />
         <input
           type="number"
+          class="form-field"
           id="number"
           name="age"
           placeholder="Enter your age"
@@ -54,7 +57,7 @@
         >
         <br />
 
-        <select name="role" id="dropdown" required>
+        <select name="role" class="form-field" id="dropdown" required>
           <option value="" selected disabled>Select current role</option>
           <option value="student">Student</option>
           <option value="full-time">Full Time Job</option>
@@ -96,7 +99,7 @@
           >What is your favourite feature of freeCodeCamp?</label
         ><br />
 
-        <select name="fav-feature" id="fav-feature" required>
+        <select name="fav-feature" class="form-field" id="fav-feature" required>
           <option value="" selected disabled>Select an option</option>
           <option value="challenges">Challenges</option>
           <option value="projects">Projects</option>
@@ -206,6 +209,7 @@
         <label>Any comments or suggestions?</label><br />
         <textarea
           name="comments"
+          class="form-field"
           id="comments"
           placeholder="Enter your comments here..."
         ></textarea>
